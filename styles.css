@@ -1,0 +1,75 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #35495e;
+    color: white;
+    padding: 20px;
+    text-align: left; /* Aligns header content to the left */
+    overflow: auto; /* Ensures proper flow of content */
+    display: flex;
+    align-items: center; /* Centers the image and text vertically */
+}
+
+/* Header Logo Image */
+.header-logo {
+    width: 100px; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+    margin-right: 20px; /* Adds space between image and text */
+}
+
+/* Navigation Menu */
+nav ul {
+    list-style: none;
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+            nav ul li a:hover {
+                text-decoration: underline;
+            }
+
+/* Sections */
+section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #35495e;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
